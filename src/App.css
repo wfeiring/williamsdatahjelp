@@ -1,0 +1,42 @@
+body{
+  background-color: rgb(255, 247, 233);
+  overflow: hidden;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.noTrue {
+  width: 100%;
+  font-family: lust-script-display, sans-serif;
+  font-size: 260px;
+  color: rgb(9, 22, 83);
+  margin: 20px;
+  margin-bottom: -60px;
+}
+
+.men {
+  width: 150px;
+  font-family: Helvetica-neue, sans-serif;
+  color: rgb(9, 22, 83);
+  font-weight: 750;
+  background: none;
+}
+
+button:focus {
+  outline:0;
+}
+
+.men:hover {
+  cursor: pointer;
+}
+
+button {
+  border: none;
+}
